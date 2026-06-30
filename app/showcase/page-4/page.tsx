@@ -37,7 +37,7 @@ function ReadingProgress() {
 
 /* ─── Pull quote ─────────────────────────────────────────── */
 function PullQuote({ text }: { text: string }) {
-  const ref = useRef<HTMLBlockquoteElement>(null)
+  const ref = useRef<HTMLQuoteElement>(null)
 
   useGSAP(() => {
     gsap.fromTo(ref.current,
