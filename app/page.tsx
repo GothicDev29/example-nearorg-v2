@@ -12,7 +12,7 @@ const SHOWCASES = [
     num: '01',
     title: 'Homepage',
     sections: '8 sections',
-    desc: 'Landing page con scroll-pinned manifesto, SVG de sharding animado, contador de stats y botón magnético.',
+    desc: 'Landing page with scroll-pinned manifesto, animated sharding SVG, stats counter, and magnetic button.',
     tags: ['ScrollTrigger', 'SVG', 'Magnetic'],
     href: '/showcase/page-1',
     gradient: 'linear-gradient(135deg, #7CB518 0%, #C6F135 100%)',
@@ -21,7 +21,7 @@ const SHOWCASES = [
     num: '02',
     title: 'Ecosystem',
     sections: '11 sections',
-    desc: 'Página interior con campo de partículas canvas, lista animada de categorías, marquee de partners y stat tipográfico.',
+    desc: 'Inner page with canvas particle field, animated category list, partner marquee, and typographic stat.',
     tags: ['Canvas', 'Particles', 'Marquee'],
     href: '/showcase/page-2',
     gradient: 'linear-gradient(135deg, #C6F135 0%, #D4561E 100%)',
@@ -30,7 +30,7 @@ const SHOWCASES = [
     num: '03',
     title: 'Blog',
     sections: '11 sections',
-    desc: 'The Open Web Journal. Grid de puntos interactivo, artículos con reveal escalonado y newsletter animado.',
+    desc: 'The Open Web Journal. Interactive dot grid, staggered article reveals, and animated newsletter.',
     tags: ['DotGrid', 'GSAP', 'Canvas'],
     href: '/showcase/page-3',
     gradient: 'linear-gradient(135deg, #D4561E 0%, #7CB518 100%)',
@@ -39,7 +39,7 @@ const SHOWCASES = [
     num: '04',
     title: 'Blog Post',
     sections: 'Article',
-    desc: 'Post single con barra de lectura en tiempo real, pull quotes parallax y bloques de código estilizados.',
+    desc: 'Single post with real-time reading progress bar, parallax pull quotes, and styled code blocks.',
     tags: ['Progress Bar', 'Parallax', 'Pull Quote'],
     href: '/showcase/page-4',
     gradient: 'linear-gradient(135deg, #1a1a17 0%, #C6F135 100%)',
@@ -129,8 +129,8 @@ export default function Home() {
 
           <p className="home-sub max-w-lg font-body text-stone leading-relaxed"
             style={{ fontSize: 'clamp(15px, 1.3vw, 18px)' }}>
-            Cuatro páginas de animaciones independientes construidas con Next.js, GSAP y Lenis.
-            Cada una explora una dirección visual distinta.
+            Four independent animation pages built with Next.js, GSAP, and Lenis.
+            Each explores a distinct visual direction.
           </p>
         </div>
 
